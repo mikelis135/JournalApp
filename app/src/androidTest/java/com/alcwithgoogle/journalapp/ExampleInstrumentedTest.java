@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.alcwithgoogle.journalapp", appContext.getPackageName());
+        assertEquals("com.alcwithgoogle.journalapp.database.AppDatabase", appContext.getPackageName());
     }
 }
