@@ -24,18 +24,17 @@
 
     </android.support.v7.widget.RecyclerView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="What Do You Feel?"
-        android:textSize="24sp"
-        android:alpha="0.5"
-        android:visibility="invisible"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="@+id/main"
-        app:layout_constraintTop_toTopOf="@+id/main"
-        app:layout_constraintStart_toStartOf="@+id/main"
-        app:layout_constraintEnd_toEndOf="@+id/main"
-        />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="It becomes clearer when you jot"-->
+        <!--android:textSize="18sp"-->
+        <!--android:alpha="0.2"-->
+        <!--android:gravity="center"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/main"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/main"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/main"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/main"-->
+        <!--/>-->
 
 </android.support.constraint.ConstraintLayout>

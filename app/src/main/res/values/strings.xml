@@ -2,9 +2,13 @@
     <string name="app_name">JournalApp</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="journal_title">Title</string>
-    <string name="journal_content">What\'s your thought</string>
+    <string name="journal_content">What are you thinking about</string>
     <string name="save_journal">Keep Thoughts</string>
     <string name="new_category_name">Category</string>
     <string name="myjournals">My Journals</string>
     <string name="newjournal">New Journal</string>
+    <string name="default_web_client_id">194224455555-r5slerqu8ek6suqfdngc07iskot8cpvp.apps.googleusercontent.com</string>
+    <string name="signin">Sign In</string>
+    <string name="next">Next</string>
+    <string name="journal">My Journal</string>
 </resources>

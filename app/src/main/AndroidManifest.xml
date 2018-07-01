@@ -4,13 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/splashscreen"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activity.MainActivity"
+            android:name=".Activity.WelcomeActivity"
             android:label="@string/myjournals"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:label="@string/newjournal" android:name=".Activity.EditJounalActivity" android:parentActivityName=".Activity.MainActivity"></activity>
+        <activity android:label="@string/signin" android:name=".Activity.SigninActivity"></activity>
+        <activity android:label="@string/journal" android:name=".Activity.MainActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
